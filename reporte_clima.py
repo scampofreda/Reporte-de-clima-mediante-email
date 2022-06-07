@@ -1,5 +1,5 @@
 import requests
-API_KEY = 'api'
+API_KEY = 'key'
 BASE_URL = 'https://api.openweathermap.org/data/2.5/weather'
 requests_url = f'{BASE_URL}?appid={API_KEY}&q=mar del plata&units=metric&lang=es'
 response = requests.get(requests_url)
